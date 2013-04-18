@@ -15,7 +15,7 @@ public class HelloWorldAction implements Action {
 	public String execute() throws Exception {
 		// TODO Auto-generated method stub
 		System.out.println(this);
-		System.out.println("用户输入的参数为：account = "+account+" ,password"+password+" ,submitFlag" +submitFlag);
+		System.out.println("修改后的用户输入的参数为：account = "+account+" ,password"+password+" ,submitFlag" +submitFlag);
 		return "towelcome";
 	}
 	
